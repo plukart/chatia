@@ -24,7 +24,7 @@ function appendMessage(sender, message) {
 }
 
 async function getBotResponse(userMessage) {
-    const apiKey = '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';
+    const apiKey = 'sk-svcacct-lowN322BXtE6WnhpGv7pbFJGsIxQzfnZWX7EWCpXqGaT_X75bqsf6PxIAEX1AEpSM5BT3BlbkFJDgSfzLQ8mIGXfKZnJjgLiNCqcYinPyYIx9ycSCbbQkWuBMiJL7ztRWz-PRTgTjAGGAA';
     const response = await fetch('https://api.openai.com/v1/engines/davinci-codex/completions', {
         method: 'POST',
         headers: {
